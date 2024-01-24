@@ -1,25 +1,36 @@
-.header {
-    padding: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 8px;
-  }
-
-  a {
-    text-decoration: none;
-  }
-.title {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
-.container {
+
+.Header {
+  color: white;
+  background-color: rgb(50, 50, 131);
+}
+
+.Headertop {
   display: flex;
-  justify-content: center;
-  gap: 52px;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.Headerbody {
+  display: flex;
+  margin: 100px;
+}
+
+img {
+  max-heaight: 150px;
 }
