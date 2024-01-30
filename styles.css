@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Header {
@@ -45,9 +46,18 @@ a {
 
 .Headerbody {
   display: flex;
-  margin: 100px;
+  padding: 100px;
+  justify-content: space-around;
 }
 
 img {
-  max-heaight: 150px;
+  max-height: 200px;
+  margin-left: 44px;
+}
+
+button {
+  background-color:#3882F6;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 8px;
 }
